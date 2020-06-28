@@ -8,4 +8,4 @@ before install:
     
     
 script:
-    - docker run -e CI=true cseprem/docker-react npm run test -- -- coverage
+    - docker run -e CI=true cseprem/docker-react npm run test
